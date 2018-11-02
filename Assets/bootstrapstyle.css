@@ -7,21 +7,27 @@
   background-image: url("Images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  height: auto; 
   margin: 0; 
 }
 
-#whitebackground {
-  background-color: white; 
-  width: 100%; 
-  background-size: cover; 
-  height: 500px; 
-  margin: 0; 
+.card-header {
+  background-color: white;
+  border-bottom: 3px solid; 
+  border-color:#e0e0e0; 
+}
+
+#mypic {
+  transform: rotate(90deg);
+  width: 200px;
+  height: 200px;
 }
 
 .textsize {
   font-size: 30px !important; 
 }
 
-#tealfooter {
-  height: 5px; 
+.border-top {
+  border-top: 5px solid !important;
+  border-color: #17a2b8 !important;
 }
