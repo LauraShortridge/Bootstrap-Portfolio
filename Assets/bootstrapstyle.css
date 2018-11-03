@@ -8,11 +8,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: auto; 
+  min-height: 630px; 
   margin: 0; 
 }
 
 .card-header {
   background-color: white;
+  color: #17a2b8; 
   border-bottom: 3px solid; 
   border-color:#e0e0e0; 
 }
